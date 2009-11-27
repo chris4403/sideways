@@ -1,0 +1,10 @@
+{
+  "name" : "sideways",
+  "version" : "0.1",
+  "content_scripts" : [
+    {
+      "css"      : ["sideways.css"],
+      "matches" : ["http://*/*","https://*/*"]
+    }
+  ]
+}
